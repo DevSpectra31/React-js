@@ -1,7 +1,7 @@
-
+import Tea from "./tea"
 function App() {
   return (
-   <h1>Get hand dirty with vite for react</h1>
+   <Tea/>
   )
 }
 
