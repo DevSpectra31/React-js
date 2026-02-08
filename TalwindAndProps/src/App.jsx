@@ -13,8 +13,8 @@ let myArr=[1,2,3,4,5,6];
   return (
     <>
     <h1 className='bg-green-400 text-black p-4 rounded-2xl mb-4'>Talwind CSS TEST</h1>
-    <Card username = "Vineet" btnText="click me"/> 
-    <Card username="Vineet" btnText="visit me"/>
+    <Card username = "Vineet" btnText="click me" className='mb-4 p-4'/> 
+    <Card username="Vineet" btnText="visit me" className='mb-4 p-4'/>
     </>
   )
 }

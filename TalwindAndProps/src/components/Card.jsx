@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Card({username,btnText}) {
-    console.log("props : ",username)
+    console.log("props : ",username,btnText)
   return (
     <>
     <div className="max-w-xs rounded-md shadow-md bg-black text-gray-100">
