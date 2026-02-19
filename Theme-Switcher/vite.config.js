@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import talwindcss from "@tailwindcss/vite"
-
-// https://vite.dev/config/
+import tawlindcss from '@tailwindcss/vite'
 export default defineConfig({
-  plugins: [react(),
-    talwindcss()
+  plugins: [
+    react(),
+    tawlindcss(),
   ],
 })
