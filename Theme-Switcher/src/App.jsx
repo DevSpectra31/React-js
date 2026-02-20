@@ -1,9 +1,8 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-/* eslint-disable no-undef */
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import { ThemeProvider } from './Contexts/Theme'
+import useTheme, { ThemeProvider } from './Contexts/Theme'
 import ThemeButton from './Components/ThemeButton'
 import Card from './Components/Card'
 function App() {
