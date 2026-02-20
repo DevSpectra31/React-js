@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useTodo } from '../Contexts';
 
 function TodoItems({todo}) {
-    console.log("todo obeject : ",todo)
+    console.log("todo obeject : ",)
   const [isTodoEditable,setIsTodoEditable] = useState(false)
   const [todoMsg, setTodoMsg] = useState(todo?.todo || "")
   const {updateTodo,deleteTodo,toggleComplete} = useTodo()
@@ -59,4 +59,4 @@ function TodoItems({todo}) {
     );
 }
 
-export default TodoItems
+export default TodoItems;
