@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import {removeTodo} from '../features/todo/todoSlice'
+import {updateTodo}  from "../features/todo/todoSlice.js"
 
 function Todos() {
     const todos = useSelector(state => state.todos)
@@ -20,6 +21,7 @@ function Todos() {
              onClick={() => dispatch(removeTodo(todo.id))}
               className="text-white bg-red-500 border-0 py-1 px-4 focus:outline-none hover:bg-red-600 rounded text-md"
             >
+              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
