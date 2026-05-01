@@ -1,0 +1,25 @@
+*{
+  marigin : 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+.card{
+  width: 20px;
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+}
+.parent{
+  padding: 20px;
+  display: flex;
+  flex:wrap;
+  background: radius 10px;
+  background-color: #333;
+}
