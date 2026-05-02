@@ -1,25 +1,38 @@
 *{
-  marigin : 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'helvetica neue';
+  color: '#fff';
 }
 html,
 body{
-  height: 100%;
-  width: 100%;
-  background-color: #111;
+  height : 100%;
+  width : 100%;
 }
 .card{
-  width: 20px;
+  width: 200px;
   border: 1px solid white;
   padding: 20px;
   text-align: center;
+
+}
+.card p{
+  margin: 20px;
 }
 .parent{
   padding: 20px;
   display: flex;
-  flex:wrap;
-  background: radius 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10x;
   background-color: #333;
+}
+.card button{
+  padding: 10px 20px ;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
 }
